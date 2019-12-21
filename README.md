@@ -26,8 +26,11 @@ This package includes a deployment file for Zeit's now.sh service.
 Set the environment variables for your Twilio account and your users:
 
 `now secrets add whipit-twilio-sid <secret-value>`
+
 `now secrets add whipit-twilio-token <secret-value>`
+
 `now secrets add whipit-twilio-from <secret-value>`
+
 `now secrets add whipit-users <secret-value>`
 
 To pubish this in your now.sh account simply type `now` in the root of this project.
